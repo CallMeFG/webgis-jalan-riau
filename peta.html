@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebGIS Jalan Riau — Peta</title>
+</head>
+<body class="halaman-peta">
+  <nav class="navbar navbar-expand bg-white border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">WebGIS Jalan Riau</a>
+      <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="peta.html">Peta</a>
+        <a class="nav-link" href="analisis.html">Hasil Analisis</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="tata-peta">
+    <!-- ============================================================
+         PANEL KIRI: layer, filter, analisis
+         ============================================================ -->
+    <aside class="panel">
+      <h2 class="h6 fw-bold">Layer</h2>
+      <div class="form-check"><input class="form-check-input" type="checkbox" id="lyr-titik" checked><label class="form-check-label" for="lyr-titik">Titik infrastruktur</label></div>
+      <div class="form-check"><input class="form-check-input" type="checkbox" id="lyr-ruas" checked><label class="form-check-label" for="lyr-ruas">Ruas jalan</label></div>
+      <div class="form-check"><input class="form-check-input" type="checkbox" id="lyr-pemukiman" checked><label class="form-check-label" for="lyr-pemukiman">Pemukiman</label></div>
+      <!-- TODO langkah 19–23: layer buffer lampu, heatmap, segmen prioritas -->
+
+      <h2 class="h6 fw-bold mt-4">Filter jenis titik</h2>
+      <!-- TODO langkah 16: checkbox jenis + list box kondisi & prioritas -->
+      <p class="small text-secondary">[TODO langkah 16]</p>
+
+      <h2 class="h6 fw-bold mt-4">Analisis</h2>
+      <p class="small text-secondary">[TODO langkah 19–23]</p>
+
+      <h2 class="h6 fw-bold mt-4">Legenda</h2>
+      <div id="legenda" class="small"></div>
+    </aside>
+
+    <main class="area-peta">
+      <div id="map" class="map"></div>
+      <!-- Popup (pola modul P10/P12) -->
+      <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer" aria-label="Tutup"></a>
+        <div id="popup-content"></div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/peta.js"></script>
+</body>
+</html>

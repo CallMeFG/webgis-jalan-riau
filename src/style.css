@@ -1,0 +1,47 @@
+/* ===============================================================
+   Gaya umum WebGIS Jalan Riau
+   =============================================================== */
+:root {
+  --ink: #1B1F24;
+  --latar: #F5F6F4;
+  --garis: #E2E5E1;
+  --aksen: #9A3412;
+  --tinggi: #B42318;
+  --sedang: #E8A33D;
+  --rendah: #2E7D5B;
+}
+
+body { background: var(--latar); color: var(--ink); }
+.text-accent { color: var(--aksen); }
+.btn-accent { background: var(--aksen); color: #fff; }
+.btn-accent:hover { background: #7C2D12; color: #fff; }
+
+.kartu { background: #fff; border: 1px solid var(--garis); border-radius: 12px; padding: 20px; }
+.kartu .angka { font-size: 2rem; font-weight: 700; }
+
+/* ---------- Halaman peta ---------- */
+.halaman-peta { height: 100vh; display: flex; flex-direction: column; }
+.tata-peta { flex: 1; display: flex; flex-wrap: wrap; min-height: 0; }
+.panel { flex: 1 1 260px; max-width: 320px; background: #fff; border-right: 1px solid var(--garis); padding: 16px; overflow-y: auto; }
+.area-peta { flex: 999 1 480px; position: relative; min-width: 0; min-height: 420px; }
+.map { position: absolute; inset: 0; }
+
+/* Legenda */
+.legenda-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.legenda-item img { width: 20px; height: 20px; }
+.legenda-garis { width: 26px; height: 6px; border-radius: 3px; display: inline-block; }
+
+/* ---------- Popup (dari modul P10/P12) ---------- */
+.ol-popup {
+  position: absolute; background: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.2);
+  padding: 14px; border-radius: 10px; bottom: 12px; left: -50px; min-width: 260px; max-width: 300px;
+}
+.ol-popup:after {
+  top: 100%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute;
+  pointer-events: none; border-top-color: #fff; border-width: 10px; left: 48px; margin-left: -10px;
+}
+.ol-popup-closer { text-decoration: none; position: absolute; top: 4px; right: 10px; color: #555; }
+.ol-popup-closer:after { content: "✖"; }
+.ol-popup img { width: 100%; border-radius: 6px; margin-top: 8px; }
+.ol-popup table { font-size: .85rem; margin: 0; }
+.ol-popup td { padding: 2px 6px 2px 0; vertical-align: top; }

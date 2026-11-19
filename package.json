@@ -1,0 +1,21 @@
+{
+  "name": "webgis-jalan-riau",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebGIS pemetaan kondisi infrastruktur jalan dan prioritas perbaikan di Kawasan Jalan Riau, Pekanbaru (Proyek Akhir Bengkel SIG, Kelompok 3, 3 TI B)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.1",
+    "bootstrap": "^5.3.9",
+    "ol": "^10.11.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}

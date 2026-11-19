@@ -1,0 +1,873 @@
+{
+ "type": "FeatureCollection",
+ "name": "titik_infrastruktur",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P01",
+    "nama": "Lubang 2",
+    "nama_asli": "Lobang 2",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L02",
+    "elevasi_m": 14.1,
+    "waktu_survey": "2026-10-01T09:33:37+07:00",
+    "foto": "foto/P01.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4251138,
+     0.5351347
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P02",
+    "nama": "Lubang 2",
+    "nama_asli": "Lobang 2",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L02",
+    "elevasi_m": 11.3,
+    "waktu_survey": "2026-10-01T09:35:41+07:00",
+    "foto": "foto/P02.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4251442,
+     0.536757
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P03",
+    "nama": "Lampu jalan 1",
+    "nama_asli": "Lampu jalan 1",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L02",
+    "elevasi_m": 11.4,
+    "waktu_survey": "2026-10-01T09:36:28+07:00",
+    "foto": "foto/P03.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4251599,
+     0.5368129
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P04",
+    "nama": "Lubang 3",
+    "nama_asli": "Lubang 3",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L02",
+    "elevasi_m": 11.6,
+    "waktu_survey": "2026-10-01T09:37:47+07:00",
+    "foto": "foto/P04.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4251854,
+     0.5369681
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P05",
+    "nama": "Lampu jalan 2",
+    "nama_asli": "Lampu jalan 2",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L02",
+    "elevasi_m": 11.4,
+    "waktu_survey": "2026-10-01T09:38:26+07:00",
+    "foto": "foto/P05.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4251903,
+     0.5370031
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P06",
+    "nama": "Lubang jalan 4",
+    "nama_asli": "Lobang jalan 4",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.9,
+    "waktu_survey": "2026-10-01T09:40:11+07:00",
+    "foto": "foto/P06.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4261666,
+     0.5351027
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P07",
+    "nama": "Lubang jalan 5",
+    "nama_asli": "Lobang jalan 5",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.9,
+    "waktu_survey": "2026-10-01T09:41:33+07:00",
+    "foto": "foto/P07.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4261522,
+     0.5351255
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P08",
+    "nama": "Lampu jalan 3",
+    "nama_asli": "Lampu jalan 3",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.8,
+    "waktu_survey": "2026-10-01T09:42:46+07:00",
+    "foto": "foto/P08.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4260258,
+     0.5351388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P09",
+    "nama": "Lubang jalan 6",
+    "nama_asli": "Lobang jalan 6",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 10.1,
+    "waktu_survey": "2026-10-01T09:44:41+07:00",
+    "foto": "foto/P09.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4267028,
+     0.5351059
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P10",
+    "nama": "Lubang jalan 7",
+    "nama_asli": "Lobang jalan 7",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.9,
+    "waktu_survey": "2026-10-01T09:45:36+07:00",
+    "foto": "foto/P10.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4267595,
+     0.5351119
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P11",
+    "nama": "Lubang jalan 8",
+    "nama_asli": "Lobang jalan 8",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.7,
+    "waktu_survey": "2026-10-01T09:45:58+07:00",
+    "foto": "foto/P11.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.426787,
+     0.5351157
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P12",
+    "nama": "Lampu jalan 4",
+    "nama_asli": "Lampu jalan 4",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.5,
+    "waktu_survey": "2026-10-01T09:46:32+07:00",
+    "foto": "foto/P12.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4267961,
+     0.5351406
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P13",
+    "nama": "Lubang jalan 9",
+    "nama_asli": "Lobang jalan 9",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.6,
+    "waktu_survey": "2026-10-01T09:47:26+07:00",
+    "foto": "foto/P13.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4268102,
+     0.5351169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P14",
+    "nama": "Lubang jalan 10",
+    "nama_asli": "Lobang jalan 10",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.4,
+    "waktu_survey": "2026-10-01T09:48:09+07:00",
+    "foto": "foto/P14.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4269995,
+     0.5351202
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P15",
+    "nama": "Lampu jalan 5",
+    "nama_asli": "Lampu jalan 5",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.7,
+    "waktu_survey": "2026-10-01T09:49:06+07:00",
+    "foto": "foto/P15.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4270639,
+     0.5351131
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P16",
+    "nama": "Jalan rusak 10",
+    "nama_asli": "Jalan rusak 10",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 13.5,
+    "waktu_survey": "2026-10-01T09:52:01+07:00",
+    "foto": "foto/P16.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4284278,
+     0.5351028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P17",
+    "nama": "Lubang jalan 11",
+    "nama_asli": "Jalan lobang 11",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.6,
+    "waktu_survey": "2026-10-01T09:52:47+07:00",
+    "foto": "foto/P17.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.428673,
+     0.5351163
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P18",
+    "nama": "Lampu jalan 6",
+    "nama_asli": "Lampu jalan 6",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 11.7,
+    "waktu_survey": "2026-10-01T09:53:16+07:00",
+    "foto": "foto/P18.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4287665,
+     0.53512
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P19",
+    "nama": "Jalan rusak 12",
+    "nama_asli": "Jalan rusak 12",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.7,
+    "waktu_survey": "2026-10-01T09:54:54+07:00",
+    "foto": "foto/P19.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.429044,
+     0.535135
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P20",
+    "nama": "Jalan rusak 13",
+    "nama_asli": "Jalan rusak 13",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.3,
+    "waktu_survey": "2026-10-01T09:55:21+07:00",
+    "foto": "foto/P20.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.429107,
+     0.5351411
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P21",
+    "nama": "Jalan rusak 14",
+    "nama_asli": "Jalan rusak 14",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.2,
+    "waktu_survey": "2026-10-01T09:56:04+07:00",
+    "foto": "foto/P21.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4291385,
+     0.5351388
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P22",
+    "nama": "Jalan rusak 15 (drainase)",
+    "nama_asli": "Jalan rusak 15 (drainase)",
+    "jenis": "Jalan rusak",
+    "keterangan": "Kerusakan akibat drainase/genangan",
+    "ruas_kode": "L01",
+    "elevasi_m": 9.0,
+    "waktu_survey": "2026-10-01T09:56:40+07:00",
+    "foto": "foto/P22.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4291634,
+     0.5351416
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P23",
+    "nama": "Jalan rusak 15 (drainase)",
+    "nama_asli": "Jalan rusak 15 (drainase)",
+    "jenis": "Jalan rusak",
+    "keterangan": "Kerusakan akibat drainase/genangan",
+    "ruas_kode": "L01",
+    "elevasi_m": 9.2,
+    "waktu_survey": "2026-10-01T09:57:30+07:00",
+    "foto": "foto/P23.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4292739,
+     0.5351424
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P24",
+    "nama": "Rambu jalan tidak berfungsi",
+    "nama_asli": "Rambu jalan tidak berfungsi",
+    "jenis": "Rambu",
+    "keterangan": "Lampu lalu lintas tidak berfungsi",
+    "ruas_kode": "L01",
+    "elevasi_m": 9.2,
+    "waktu_survey": "2026-10-01T09:58:23+07:00",
+    "foto": "foto/P24.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4292908,
+     0.5351449
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P25",
+    "nama": "Jalan rusak 17",
+    "nama_asli": "Jala rusa 17",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 9.3,
+    "waktu_survey": "2026-10-01T09:59:07+07:00",
+    "foto": "foto/P25.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4293804,
+     0.5351473
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P26",
+    "nama": "Lampu jalan",
+    "nama_asli": "Lampu jalan",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L05",
+    "elevasi_m": 9.1,
+    "waktu_survey": "2026-10-01T10:02:08+07:00",
+    "foto": "foto/P26.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4312891,
+     0.5337912
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P27",
+    "nama": "Lampu jalan",
+    "nama_asli": "Lampu jalan",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L05",
+    "elevasi_m": 10.3,
+    "waktu_survey": "2026-10-01T10:03:06+07:00",
+    "foto": "foto/P27.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4313046,
+     0.5334519
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P28",
+    "nama": "Lampu jalan",
+    "nama_asli": "Lampu jalan",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L05",
+    "elevasi_m": 10.5,
+    "waktu_survey": "2026-10-01T10:03:46+07:00",
+    "foto": "foto/P28.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4312364,
+     0.5334258
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P29",
+    "nama": "Jalan rusak",
+    "nama_asli": "Jalan rusak",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L04",
+    "elevasi_m": 12.2,
+    "waktu_survey": "2026-10-01T10:05:30+07:00",
+    "foto": "foto/P29.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4309275,
+     0.5348721
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P30",
+    "nama": "Lampu jalan",
+    "nama_asli": "Lampu jalan",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L04",
+    "elevasi_m": 11.0,
+    "waktu_survey": "2026-10-01T10:06:16+07:00",
+    "foto": "foto/P30.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4309083,
+     0.5346233
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P31",
+    "nama": "Jalan rusak",
+    "nama_asli": "Jalan rusak",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L04",
+    "elevasi_m": 9.7,
+    "waktu_survey": "2026-10-01T10:07:12+07:00",
+    "foto": "foto/P31.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4309437,
+     0.5338622
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P32",
+    "nama": "Jalan rusak",
+    "nama_asli": "Jalan rusak",
+    "jenis": "Jalan rusak",
+    "keterangan": null,
+    "ruas_kode": "L04",
+    "elevasi_m": 10.4,
+    "waktu_survey": "2026-10-01T10:07:47+07:00",
+    "foto": "foto/P32.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4309655,
+     0.5336327
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P33",
+    "nama": "Lampu jalan",
+    "nama_asli": "Lampu jalan",
+    "jenis": "Lampu jalan",
+    "keterangan": null,
+    "ruas_kode": "L03",
+    "elevasi_m": 10.2,
+    "waktu_survey": "2026-10-01T10:09:50+07:00",
+    "foto": "foto/P33.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4287996,
+     0.5346503
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P34",
+    "nama": "Halte 1",
+    "nama_asli": "Halte 1",
+    "jenis": "Halte",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.2,
+    "waktu_survey": "2026-10-01T10:13:20+07:00",
+    "foto": "foto/P34.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4316012,
+     0.5352577
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P35",
+    "nama": "Lubang jalan",
+    "nama_asli": "Lobang sekian",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.4,
+    "waktu_survey": "2026-10-01T10:14:49+07:00",
+    "foto": "foto/P35.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4313711,
+     0.5351736
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P36",
+    "nama": "Halte 2",
+    "nama_asli": "Halte 2",
+    "jenis": "Halte",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 10.4,
+    "waktu_survey": "2026-10-01T10:17:11+07:00",
+    "foto": "foto/P36.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4289333,
+     0.5352147
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P37",
+    "nama": "Halte 3",
+    "nama_asli": "Halte 3",
+    "jenis": "Halte",
+    "keterangan": null,
+    "ruas_kode": "L01",
+    "elevasi_m": 12.4,
+    "waktu_survey": "2026-10-01T10:19:31+07:00",
+    "foto": "foto/P37.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4314828,
+     0.5352154
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P38",
+    "nama": "Rambu 2",
+    "nama_asli": "Rambu 2",
+    "jenis": "Rambu",
+    "keterangan": "Lampu lalu lintas",
+    "ruas_kode": "L01",
+    "elevasi_m": 12.9,
+    "waktu_survey": "2026-10-01T10:21:42+07:00",
+    "foto": "foto/P38.jpg"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4361304,
+     0.5352654
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P39",
+    "nama": "Lubang jalan",
+    "nama_asli": "lubang jalan",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L06",
+    "elevasi_m": 11.3,
+    "waktu_survey": "2026-10-08T17:32:02+07:00",
+    "foto": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4277105,
+     0.5290022
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P40",
+    "nama": "Lubang jalan",
+    "nama_asli": "lubang jalan",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L06",
+    "elevasi_m": 11.4,
+    "waktu_survey": "2026-10-08T17:33:26+07:00",
+    "foto": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4277107,
+     0.5289586
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kode": "P41",
+    "nama": "Lubang jalan",
+    "nama_asli": "lubang jalan",
+    "jenis": "Lubang jalan",
+    "keterangan": null,
+    "ruas_kode": "L06",
+    "elevasi_m": 10.7,
+    "waktu_survey": "2026-10-08T17:34:46+07:00",
+    "foto": null
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.4277087,
+     0.5291245
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebGIS Jalan Riau — Home</title>
+</head>
+<body>
+  <!-- ============================================================
+       HALAMAN HOME (profil web) — ketentuan no. 3
+       ============================================================ -->
+  <nav class="navbar navbar-expand bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">WebGIS Jalan Riau</a>
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="peta.html">Peta</a>
+        <a class="nav-link" href="analisis.html">Hasil Analisis</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <section class="row align-items-center g-5 mb-5">
+      <div class="col-lg-7">
+        <p class="text-uppercase small fw-semibold text-accent mb-2">Proyek Akhir Bengkel SIG · Kelompok 3 · 3 TI B</p>
+        <h1 class="display-6 fw-bold">Pemetaan Kondisi Infrastruktur Jalan dan Prioritas Perbaikan di Kawasan Jalan Riau</h1>
+        <p class="lead text-secondary">WebGIS ini memetakan lubang, kerusakan, lampu, halte, dan rambu hasil survey lapangan, lalu menghitung ruas jalan mana yang paling mendesak diperbaiki.</p>
+        <a class="btn btn-accent btn-lg me-2" href="peta.html">Buka Peta</a>
+        <a class="btn btn-outline-dark btn-lg" href="analisis.html">Lihat Hasil Analisis</a>
+      </div>
+      <!-- Angka diisi otomatis dari data oleh src/home.js -->
+      <div class="col-lg-5">
+        <div class="row g-3" id="statistik">
+          <div class="col-6"><div class="kartu"><div class="angka" data-stat="lubang">–</div><div>titik lubang jalan</div></div></div>
+          <div class="col-6"><div class="kartu"><div class="angka" data-stat="rusak">–</div><div>titik jalan rusak</div></div></div>
+          <div class="col-6"><div class="kartu"><div class="angka" data-stat="ruas">–</div><div>ruas jalan</div></div></div>
+          <div class="col-6"><div class="kartu"><div class="angka" data-stat="pemukiman">–</div><div>area pemukiman</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row g-4 mb-5">
+      <div class="col-md-4"><div class="kartu h-100"><h2 class="h5">Latar Belakang</h2><p class="text-secondary mb-0">[TODO isi kelompok]</p></div></div>
+      <div class="col-md-4"><div class="kartu h-100"><h2 class="h5">Tujuan</h2><p class="text-secondary mb-0">[TODO isi kelompok]</p></div></div>
+      <div class="col-md-4"><div class="kartu h-100"><h2 class="h5">Lokasi &amp; Waktu Survey</h2><p class="text-secondary mb-0">Kawasan Jalan Riau, Kota Pekanbaru: Jl. Riau, Gg. Darul Akbar, Jl. Mutiara, Gg. Sepakat, Gg. Geliga, Jl. Haji Guru. Survey 1 dan 8 Oktober 2026 dengan Avenza Maps.</p></div></div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="h4 mb-3">Fitur</h2>
+      <p class="text-secondary">[TODO: daftar fitur — 6 layer, filter kategori, analisis spasial, database Supabase]</p>
+      <h2 class="h4 mb-3 mt-4">Cara Menggunakan</h2>
+      <p class="text-secondary">[TODO]</p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container d-flex flex-wrap justify-content-between gap-4">
+      <div>
+        <strong>Tim Kelompok 3</strong><br>
+        Elen Fransiska (Ketua) · [NIM]<br>
+        Raymond · [NIM]<br>
+        Fathur Rizky Assani · [NIM]<br>
+        Tommy Sanjaya · [NIM]
+      </div>
+      <div>
+        <strong>Dosen / ILB</strong><br>
+        Mardhiah Fadli, S.T., M.T.<br>
+        Ahmad Ali Munawar, S.Tr.Kom.<br>
+        <span class="text-white-50">Teknik Informatika · Politeknik Caltex Riau · 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/home.js"></script>
+</body>
+</html>

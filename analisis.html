@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebGIS Jalan Riau — Hasil Analisis</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">WebGIS Jalan Riau</a>
+      <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="peta.html">Peta</a>
+        <a class="nav-link active" href="analisis.html">Hasil Analisis</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="h3 fw-bold">Prioritas Perbaikan Ruas Jalan</h1>
+    <p class="text-secondary">Bobot kriteria mengikuti Saleh dkk. (2013): kondisi jalan, volume lalu lintas, dan tata guna lahan.</p>
+
+    <!-- TODO langkah 22 & 24: ringkasan per kelas + tabel peringkat dari Supabase -->
+    <div class="kartu">
+      <table class="table mb-0" id="tabel-prioritas">
+        <thead><tr><th>#</th><th>Ruas</th><th>Panjang</th><th>Lubang</th><th>Jalan rusak</th><th>Kepadatan</th><th>Skor</th><th>Kelas</th></tr></thead>
+        <tbody><tr><td colspan="8" class="text-secondary">[TODO langkah 22]</td></tr></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script type="module" src="/src/analisis.js"></script>
+</body>
+</html>
