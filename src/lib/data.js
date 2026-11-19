@@ -13,6 +13,7 @@ const RPC = {
   titik_infrastruktur: 'get_titik_infrastruktur',
   ruas_jalan: 'get_ruas_jalan',
   pemukiman: 'get_pemukiman',
+  segmen_jalan: 'get_segmen_jalan', // langkah 12 (file statis menyusul di langkah 27)
 };
 
 export async function ambilLayer(nama) {

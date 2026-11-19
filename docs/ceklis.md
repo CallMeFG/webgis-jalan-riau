@@ -10,17 +10,21 @@ Tandai selesai dengan mengganti `[ ]` menjadi `[x]`.
 - [x] 4. Ekspor ulang KMZ + foto — Kelompok (Farizal) — 19 Nov
 - [x] 5. Keputusan: Supabase, demo di laptop, kumpul laporan saja, kategori Rambu — Kelompok — 19 Nov
 - [x] 6. Bobot analisis: dari Saleh dkk. (2013), lihat `bobot-analisis.md` — Keduanya — 19 Nov
-- [ ] 7. Sepakati pembagian peran — Kelompok — 25 Nov
+- [x] 7. Pembagian peran — Kelompok — 19 Nov
+  - Tech Lead (website, Supabase, integrasi; BAB 4 implementasi): Fathur Rizky Assani
+  - Data & Analisis (kebenaran data, cek hasil, black box; BAB 3 analisis + BAB 4 pengujian): Raymond
+  - Dokumentasi (laporan, BAB 2, screenshot, slide; penyuntingan akhir): Tommy Sanjaya
+  - Koordinator & Presentasi (jadwal, isi Home, alur presentasi, gladi; BAB 1): Elen Fransiska
 
 ## B. Data & database (19–25 Nov)
 - [x] 8. Paket data final (GeoJSON bersih + foto diperkecil) — Di sini — `public/data`, `public/foto`
 - [x] 9. Kamus data untuk BAB 3 — Di sini — `kamus-data.md`
-- [ ] 10. Project Supabase + PostGIS + tabel + isi data — Keduanya — 23 Nov
-- [ ] 11. Unggah foto ke penyimpanan Supabase — Di sini — 23 Nov
-- [ ] 12. Pecah ruas jalan jadi segmen 50 m — Di sini — 25 Nov
+- [x] 10. Project Supabase + PostGIS + tabel + isi data — Keduanya — 19 Nov (`supabase/01`–`03`)
+- [x] 11. Unggah foto ke penyimpanan Supabase — Keduanya — 23 Nov (`supabase/04_foto_storage.sql` + upload di dashboard)
+- [x] 12. Pecah ruas jalan jadi segmen 50 m — Keduanya — 25 Nov (`supabase/05_segmen.sql`, 70 segmen)
 
 ## C. Website (26 Nov – 2 Des)
-- [x] 13. Kerangka proyek Vite + OpenLayers 3 halaman — Keduanya — repo GitHub dibuat kelompok
+- [x] 13. Kerangka proyek Vite + OpenLayers 3 halaman — Keduanya — repo: github.com/CallMeFG/webgis-jalan-riau
 - [ ] 14. Halaman Home (isi latar belakang, tujuan, fitur) — Keduanya — 28 Nov
 - [ ] 15. Peta: 6 layer + simbol + legenda — Di sini — 29 Nov (3 layer survey sudah tampil)
 - [ ] 16. Filter checkbox & list box — Di sini — 30 Nov
@@ -28,10 +32,10 @@ Tandai selesai dengan mengganti `[ ]` menjadi `[x]`.
 - [ ] 18. Pilihan basemap OSM / satelit — Di sini — 30 Nov
 
 ## D. Analisis spasial (26 Nov – 2 Des)
-- [ ] 19. Buffer lampu jalan — Di sini — 28 Nov
-- [ ] 20. Hitung kerusakan per segmen — Di sini — 28 Nov
-- [ ] 21. Hitung pemukiman terdampak — Di sini — 29 Nov
-- [ ] 22. Skor prioritas berbobot — Keduanya — 1 Des
+- [ ] 19. Buffer lampu jalan — Di sini — 28 Nov (fungsi SQL siap: `buffer_lampu`, `penerangan_ruas`)
+- [ ] 20. Hitung kerusakan per segmen — Di sini — 28 Nov (fungsi SQL siap: `kerusakan_segmen`)
+- [ ] 21. Hitung pemukiman terdampak — Di sini — 29 Nov (fungsi SQL siap: `pemukiman_terdampak`)
+- [ ] 22. Skor prioritas berbobot — Keduanya — 1 Des (fungsi SQL siap: `prioritas_segmen`, `prioritas_ruas`)
 - [ ] 23. Heatmap kepadatan kerusakan — Di sini — 1 Des
 - [ ] 24. Halaman Hasil Analisis — Di sini — 2 Des
 - [ ] 25. Cocokkan hasil dengan foto/kondisi lapangan — Kelompok — 2 Des
